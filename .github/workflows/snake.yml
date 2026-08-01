@@ -1,31 +1,39 @@
+# GitHub Action for generating a contribution graph with a green snake
 name: Generate Snake
 
+# When the action runs
 on:
   schedule:
-    - cron: "0 0 * * *"        # daily at midnight UTC
-  workflow_dispatch:           # allow manual runs
+    # every day at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:     # allow manual runs
 
+# Allow the workflow to write to the repo
 permissions:
   contents: write
 
 jobs:
   build:
+    name: Build snake animation
     runs-on: ubuntu-latest
 
     steps:
+      # 1) Checkout the repo so the job can access it
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate snake SVGs
+      # 2) Generate the snake SVG/GIF with Platane/snk
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: SourasishG
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif
+            dist/github-snake.svg?color_snake=#26a641
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#26a641
+            dist/github-snake.gif?color_snake=#26a641&color_dots=#9be9a8,#40c463,#30a14e,#216e39,#0f6d31
 
-      - name: Deploy to output branch
+      # 3) Publish the dist folder to the "output" branch
+      - name: Deploy snake to output branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
