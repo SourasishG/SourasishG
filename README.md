@@ -1,6 +1,3 @@
-# Hi, I'm Sourasish 👋
-
-
 <div align="center">
 
 <a href="https://capsule-render.vercel.app/">
@@ -34,10 +31,6 @@
 </a>
 
 <br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=SourasishG&label=PROFILE%20VIEWS&color=7C3AED&style=flat-square" />
-<img src="https://img.shields.io/github/followers/SourasishG?label=FOLLOWERS&style=flat-square&color=6366F1" />
-<img src="https://img.shields.io/github/stars/SourasishG?affiliations=OWNER&label=STARS&style=flat-square&color=8B5CF6" />
 
 </div>
 
@@ -227,7 +220,7 @@ The project explores how modern web applications can combine information density
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
+![Snake animation dark](https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-snake-dark.svg)
 
 </div>
 
@@ -300,4 +293,4 @@ open_to:
 
 
 ---
-![Snake animation dark](https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-snake-dark.svg)
+
