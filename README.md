@@ -190,14 +190,6 @@ The project explores how modern web applications can combine information density
 
 <div align="center">
 
-<a href="https://github.com/SourasishG">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=SourasishG&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0628&title_color=A78BFA&icon_color=8B5CF6&text_color=E5E7EB" />
-</a>
-
-<a href="https://github.com/SourasishG">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SourasishG&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0628&title_color=A78BFA&text_color=E5E7EB" />
-</a>
-
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=SourasishG&theme=tokyonight&hide_border=true&background=0D0628&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" />
