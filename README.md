@@ -11,7 +11,6 @@
 <br/>
 
 <img src="https://img.shields.io/badge/B.Tech%20CSE-Computer%20Science-7C3AED?style=for-the-badge&labelColor=0D0628" />
-<img src="https://img.shields.io/badge/CGPA-8.14%2F10-6366F1?style=for-the-badge&labelColor=0D0628" />
 <img src="https://img.shields.io/badge/Final%20Year-CSE%20Student-8B5CF6?style=for-the-badge&labelColor=0D0628" />
 <img src="https://img.shields.io/badge/Location-India-4F46E5?style=for-the-badge&labelColor=0D0628" />
 
