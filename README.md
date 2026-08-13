@@ -239,20 +239,6 @@ I'm currently interested in opportunities where I can:
 
 ---
 
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=SourasishG&show_icons=true&theme=transparent&hide_border=true&title_color=4ADE80&icon_color=22C55E&text_color=86EFAC" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=SourasishG&theme=dark&hide_border=true&background=00000000&ring=22C55E&fire=4ADE80&currStreakLabel=4ADE80" />
-
-</div>
-
----
-
 # 📈 Contribution Activity
 
 <div align="center">
@@ -267,11 +253,9 @@ I'm currently interested in opportunities where I can:
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-snake.svg" alt="GitHub Contribution Snake" />
+<img src="https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-snake-dark.svg" alt="GitHub Contribution Snake" />
 
 <br/>
-
-<i>One contribution at a time. 🟢</i>
 
 </div>
 
