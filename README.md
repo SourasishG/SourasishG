@@ -140,7 +140,7 @@ I'm constantly learning, experimenting, and improving by building things that ch
 <img src="https://skillicons.dev/icons?i=git,github,vscode,npm" />
 </p>
 
-----
+---
 
 # 📚 Currently Learning
 
