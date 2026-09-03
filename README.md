@@ -114,12 +114,6 @@ I'm constantly learning, experimenting, and improving by building things that ch
 <img src="https://skillicons.dev/icons?i=react,vite,tailwind,threejs" />
 </p>
 
-## 🎨 UI & Animation
-
-<p align="left">
-<img src="https://skillicons.dev/icons?i=figma" />
-</p>
-
 **React • Tailwind CSS • Framer Motion • Responsive Design • Modern UI • Component Architecture**
 
 ## 🗄️ Databases
