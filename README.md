@@ -1,16 +1,13 @@
 <div align="center">
 
-<!-- Header Banner -->
-<a href="https://github.com/SourasishG">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:052E16,50:14532D,100:22C55E&height=220&section=header&text=SOURASISH%20GHOSH&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20React%20%26%20Next.js%20%7C%20Creative%20Web%20%26%20AI&descAlignY=62&descSize=16" width="100%" alt="Sourasish Ghosh Banner" />
-</a>
+# Hi there, I'm Sourasish Ghosh 👋
 
 <!-- Dynamic Typing Headline -->
 <a href="https://readme-typing-svg.demolab.com/">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=4ADE80&center=true&vCenter=true&width=850&lines=Full+Stack+Developer+%26+Software+Engineer;Building+with+Next.js%2C+React+19+%26+Node.js;Creative+3D+Web+with+Three.js+%26+React+Three+Fiber;Integrating+Modern+AI+%26+LLMs+into+Real+Products;Exploring+Machine+Learning+%26+Computer+Vision;Always+Building+%7C+Always+Optimizing" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- Status Badges -->
 <img src="https://img.shields.io/badge/B.Tech%20CSE-Computer%20Science-22C55E?style=for-the-badge&labelColor=052E16" alt="B.Tech CSE" />
@@ -203,9 +200,5 @@ I'm always open to discussing **Software Engineering**, **Full-Stack / React opp
 <a href="https://www.linkedin.com/in/sourasish-ghosh-304a21280/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Sourasish%20Ghosh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22C55E,50:14532D,100:052E16&height=110&section=footer" width="100%" alt="Footer" />
 
 </div>
