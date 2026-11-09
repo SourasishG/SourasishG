@@ -90,21 +90,52 @@ class ContributionParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.days: dict[str, int] = {}
+        self.day_ids: dict[str, str] = {}
+        self.tooltips: dict[str, str] = {}
+        self.current_tooltip: str | None = None
+        self.tooltip_parts: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {key: value or "" for key, value in attrs}
+        if tag == "tool-tip":
+            self.current_tooltip = values.get("for", "") or values.get("id", "")
+            self.tooltip_parts = []
         day = values.get("data-date", "")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", day):
             return
 
+        if values.get("id"):
+            self.day_ids[values["id"]] = day
         count = values.get("data-count", "")
         if count.isdigit():
             amount = int(count)
         else:
-            label = unescape(values.get("aria-label", "") or values.get("title", ""))
-            match = re.search(r"\b(\d+)\s+contributions?\b", label, re.IGNORECASE)
-            amount = int(match.group(1)) if match else 0
+            amount = self.count_from_label(values.get("aria-label", "") or values.get("title", ""))
         self.days[day] = max(self.days.get(day, 0), amount)
+
+    def handle_data(self, data: str) -> None:
+        if self.current_tooltip is not None:
+            self.tooltip_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "tool-tip" and self.current_tooltip is not None:
+            self.tooltips[self.current_tooltip] = " ".join(self.tooltip_parts)
+            self.current_tooltip = None
+            self.tooltip_parts = []
+
+    @staticmethod
+    def count_from_label(label: str) -> int:
+        match = re.search(r"\b(\d+)\s+contributions?\b", unescape(label), re.IGNORECASE)
+        return int(match.group(1)) if match else 0
+
+    def apply_tooltips(self) -> None:
+        for target, label in self.tooltips.items():
+            day = self.day_ids.get(target)
+            if not day:
+                match = re.search(r"\d{4}-\d{2}-\d{2}", target)
+                day = match.group(0) if match else ""
+            if day:
+                self.days[day] = max(self.days.get(day, 0), self.count_from_label(label))
 
 
 def refresh_contributions() -> None:
@@ -120,6 +151,7 @@ def refresh_contributions() -> None:
 
     parser = ContributionParser()
     parser.feed(page)
+    parser.apply_tooltips()
     if not parser.days:
         raise RuntimeError("GitHub returned no dated contribution cells; existing data was kept.")
 
