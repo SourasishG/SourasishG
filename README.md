@@ -59,11 +59,6 @@
 
 <br/><br/>
 
-<!-- Dark Mode Contribution Snake Animation -->
-<img src="https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
-
-<br/><br/>
-
 <!-- Social Connect Badges -->
 <a href="mailto:sourasishghosh062@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-sourasishghosh062@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
