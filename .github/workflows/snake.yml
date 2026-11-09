@@ -1,5 +1,5 @@
-# GitHub Action for generating a contribution graph with a green snake
-name: Generate Snake
+# Refresh profile cards and generate the contribution snake
+name: Refresh Profile Cards and Snake
 
 # When the action runs
 on:
@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    name: Build snake animation
+    name: Build profile assets
     runs-on: ubuntu-latest
 
     steps:
