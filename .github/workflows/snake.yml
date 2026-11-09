@@ -3,6 +3,13 @@ name: Refresh Profile Cards and Snake
 
 # When the action runs
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - profile_cards.py
+      - .github/workflows/snake.yml
   schedule:
     # every day at 00:00 UTC
     - cron: "0 0 * * *"
