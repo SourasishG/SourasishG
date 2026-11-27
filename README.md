@@ -25,7 +25,7 @@ I started with frontend development and gradually moved deeper into backend syst
 - How I work: patient problem-solving, learning quickly, and understanding the reasoning behind the code.
 - What I'm growing towards: becoming a strong end-to-end Full-Stack Engineer who can design, integrate and ship dependable software.
 - Outside engineering: football, video games, music and movies.
-I'm open to software engineering / full-stack internships, early-career roles and thoughtful project collaborations.
+I'm open to Full-Stack Developer, Frontend Developer and Software Engineering internships, entry-level opportunities and thoughtful project collaborations. I am especially interested in teams where I can contribute to real products, learn from code reviews and grow across the frontend and backend.
 Selected work
 These projects are ordered by the depth of engineering demonstrated, end-to-end ownership, and the strength of the available project evidence. The first two are my main case studies.
 01 · MedBuddy — Privacy-first medicine tracker
@@ -89,24 +89,95 @@ Portfolio — SIGNAL	My personal portfolio, built as an interactive engineering 
 
 
 </details>Want to see the work in context? Visit my portfolio and project case studies.
-Technology toolkit
-I use different tools depending on the problem. The list below reflects technologies used across projects and areas I'm actively developing — not a claim of equal expertise in every tool.
-Area	Technologies
-Languages	JavaScript, TypeScript, Python, C, C++
-Frontend	React, Next.js, Vite, HTML5, CSS3, Tailwind CSS, SCSS, Framer Motion, GSAP
-State & UI	Zustand, Redux Toolkit, React Router, shadcn/ui
-Backend	Node.js, Express.js, REST APIs, JWT, Zod, Prisma ORM
-Databases	PostgreSQL, Supabase, MongoDB, MySQL
-AI / ML / Computer Vision	Google Gemini API, LLM integration, PyTorch, OpenCV, FaceNet, NumPy
-3D & Interactive Web	Three.js, React Three Fiber, Drei, WebGL
-Cloud & Developer Tools	AWS EC2, AWS S3, Git, GitHub, Postman, Vercel, Playwright, CI/CD fundamentals
+Technical toolkit
+I choose technologies based on the product and the problem. The groups below distinguish tools I have applied in projects from areas where I am still building depth. A tool appearing here does not mean I claim expert-level proficiency in it.
+<div align="center">
+  <h3>Languages</h3>
+  <img src="https://skillicons.dev/icons?i=js,ts,python,c,cpp&theme=dark" alt="JavaScript, TypeScript, Python, C and C++" />
+  <br />
+  <h3>Frontend & UI</h3>
+  <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,vite,tailwind,redux&theme=dark" alt="HTML, CSS, React, Next.js, Vite, Tailwind CSS and Redux" />
+  <br />
+  <h3>Backend, databases & cloud</h3>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,postgres,supabase,mongodb,mysql,aws,vercel&theme=dark" alt="Node.js, Express, Prisma, PostgreSQL, Supabase, MongoDB, MySQL, AWS and Vercel" />
+  <br />
+  <h3>AI, computer vision & 3D</h3>
+  <img src="https://skillicons.dev/icons?i=pytorch,opencv,threejs&theme=dark" alt="PyTorch, OpenCV and Three.js" />
+  <br />
+  <h3>Developer tools</h3>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark" alt="Git, GitHub, Visual Studio Code and Postman" />
+</div>Stack by engineering area
+Area	Technologies	How I use them
+Programming	JavaScript, TypeScript, Python, C, C++	Application logic, typed frontend code, scripting and programming fundamentals.
+Frontend engineering	React, Next.js, Vite, HTML5, CSS3, Tailwind CSS	Component-driven interfaces, routing, responsive layouts and product experiences.
+Motion & interface	Framer Motion, GSAP, shadcn/ui	Interface transitions, interaction feedback and reusable UI building blocks.
+State & client-side logic	Zustand, Redux Toolkit, React Router	Shared application state, predictable UI updates, navigation and URL-driven views.
+Backend engineering	Node.js, Express.js, REST APIs, JWT, Zod	API routes, request handling, authentication flows and input validation.
+ORM & data access	Prisma	Relational data models and application-to-database access.
+Relational data	PostgreSQL, Supabase, Row Level Security	Structured data, relational modelling and user-scoped access policies in project work.
+Document databases	MongoDB, Mongoose	Database modelling and CRUD practice while strengthening backend fundamentals.
+AI integration	Google Gemini API, LLM integration	Context-aware assistant features and AI-supported application workflows.
+Machine learning & vision	Python, PyTorch, OpenCV, FaceNet, NumPy	Face recognition experiments, image processing and numerical visualisation.
+3D & interactive web	Three.js, React Three Fiber, Drei, WebGL	Interactive 3D scenes, product visualisations and spatial interfaces.
+Cloud & delivery	Vercel, AWS EC2, AWS S3, GitHub Actions	Deploying web projects, cloud fundamentals and workflow automation.
+Browser capabilities	HTML Audio API, PWA, Serwist, VAPID Web Push	Browser-based media playback, installable experiences, offline support and push notifications.
+Developer workflow	Git, GitHub, VS Code, Postman, Playwright	Version control, API exploration, debugging and testing practice.
 
 
+Technologies in practice
+Applied across my featured projects
+- React + TypeScript: reusable components, typed props and application interfaces.
+- Next.js: building full-stack web experiences and structured application routes.
+- Node.js + Express: REST API development, authentication and server-side workflows.
+- PostgreSQL + Supabase + Prisma: relational schema design, queries and access control.
+- Zustand + Redux Toolkit: managing shared state and keeping UI behaviour predictable.
+- Three.js + React Three Fiber: rendering and interacting with 3D scenes in the browser.
+- Gemini API: connecting LLM capabilities to application-specific context and workflows.
+- Python + PyTorch + OpenCV: computer vision experiments and machine-learning fundamentals.
+Currently strengthening / practising
+- MongoDB and Mongoose, alongside relational database design.
+- Backend testing, API security and validation patterns.
+- TypeScript, Next.js architecture and production-ready application structure.
+- Cloud deployment, CI/CD and maintainable release workflows.
+- DSA, problem solving and core computer science concepts.
+Engineering concepts I work with
+I enjoy learning the reasoning behind a feature, not just the library used to implement it. These are some of the practical concepts represented in my projects:
+Concept	What it means in my work	Example project
+Component-based architecture	Breaking interfaces into focused, reusable components.	MedBuddy, MUZO, Office Aid
+Client-side state management	Keeping shared state and UI updates predictable across screens.	MUZO, Support Ticket Dashboard
+REST API integration	Connecting interfaces to services, handling asynchronous requests, loading and error states.	Office Aid, MUZO
+Authentication & authorization	Working with JWT-based sessions and role-based access patterns.	Office Aid
+Relational data modelling	Designing entities and relationships for application workflows.	Office Aid, MedBuddy
+Row Level Security	Restricting database access according to the signed-in user and policy.	MedBuddy
+Business logic	Implementing domain-specific rules instead of relying only on UI behaviour.	MedBuddy — FEFO medicine inventory
+Event-driven browser APIs	Synchronising the interface with browser media events.	MUZO — HTML Audio API
+Offline-first web features	Exploring installability, offline behaviour and push notifications.	MedBuddy — PWA
+3D rendering	Building interactive scenes and visual experiences in the browser.	Pokémon Atlas 3D, MedBuddy
+AI-assisted workflows	Supplying application context to an LLM-powered assistant.	Office Aid — Herric
+
+
+How I approach building a product
+<div align="center">
+  <img src="https://img.shields.io/badge/01-Understand%20the%20problem-0E7490?style=for-the-badge" alt="Step 1: Understand the problem" />
+  <img src="https://img.shields.io/badge/02-Plan%20the%20data%20%26%20architecture-1D4ED8?style=for-the-badge" alt="Step 2: Plan data and architecture" />
+  <img src="https://img.shields.io/badge/03-Build%20the%20experience-4338CA?style=for-the-badge" alt="Step 3: Build the experience" />
+  <img src="https://img.shields.io/badge/04-Integrate%20%26%20test-6D28D9?style=for-the-badge" alt="Step 4: Integrate and test" />
+  <img src="https://img.shields.io/badge/05-Deploy%20%26%20iterate-0F766E?style=for-the-badge" alt="Step 5: Deploy and iterate" />
+</div>1. Understand the problem: identify the user, the workflow and the actual need.
+2. Plan the structure: think through routes, reusable components, data models and API boundaries.
+3. Build in layers: develop the interface, business logic and backend in manageable parts.
+4. Integrate and verify: connect APIs and data, test important flows, and debug edge cases.
+5. Ship and improve: deploy, collect feedback and refine the product instead of treating the first version as the finish line.
 Experience & education
 AWS DevOps Intern — Employability.life · Remote
 November 2025 – January 2026
 
 Completed the XPro Project: AWS DevOps Initiative, gaining practical exposure to AWS EC2, S3, cloud application deployment and CI/CD fundamentals.
+
+Python Developer Intern — Pinnacle Labs
+1-month internship
+
+Completed a short Python development internship, gaining practical experience working through programming tasks and building with Python.
 
 B.Tech, Computer Science & Engineering — Sister Nivedita University
 2023 – 2027 · Kolkata, India
