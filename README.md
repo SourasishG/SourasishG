@@ -2,7 +2,7 @@
   GitHub Profile README for SourasishG
   Keep this file in the repository named exactly: SourasishG
 --><div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:312E81,100:0891B2&height=190&section=header&text=Sourasish%20Ghosh&fontSize=46&fontColor=F8FAFC&fontAlignY=36&desc=Full-Stack%20Developer%20%7C%20Building%20useful%20digital%20products&descAlignY=58&descSize=16&animation=fadeIn" alt="Sourasish Ghosh — Full-Stack Developer" />  <a href="https://my-portfolio-s7ven.vercel.app/">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,45:312E81,100:0891B2&height=190&section=header&text=Sourasish%20Ghosh&fontSize=46&fontColor=F8FAFC&fontAlignY=36&desc=Full-Stack%20Developer%20%7C%20Building%20useful%20digital%20products&descAlignY=58&descSize=16&animation=twinkling" alt="Animated gradient banner — Sourasish Ghosh, Full-Stack Developer" />  <a href="https://my-portfolio-s7ven.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Explore%20my%20work-0891B2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:sourasishghosh062@gmail.com">
@@ -14,7 +14,7 @@
   <a href="https://my-portfolio-s7ven.vercel.app/docs/Sourasish-Ghosh-Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-View%20PDF-475569?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" />
   </a>  <br />
-  <br />  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&width=760&lines=I+build+across+the+full+stack.;I+care+about+architecture+as+much+as+the+interface.;Exploring+AI%2C+machine+learning+%26+creative+3D+web." alt="A short introduction to my engineering interests" />  <p>
+  <br />  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3200&pause=900&color=67E8F9&center=true&vCenter=true&width=760&lines=Building+thoughtful+products+across+the+full+stack.;From+pixel-perfect+interfaces+to+reliable+backend+systems.;Exploring+AI%2C+machine+learning+%26+creative+3D+web." alt="Animated typing introduction — Full-stack development, product engineering and creative technology" />  <p>
     <b>Kolkata, India</b> · B.Tech Computer Science & Engineering · 2023–2027
   </p>
 </div>About me
@@ -128,6 +128,14 @@ GitHub activity
   <img width="60%" src="https://streak-stats.demolab.com?user=SourasishG&theme=tokyonight&hide_border=true&background=0D1117&ring=67E8F9&fire=67E8F9&currStreakLabel=67E8F9" alt="GitHub contribution streak" />
   <br />
   <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=SourasishG&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=C4B5FD&line=67E8F9&point=F8FAFC&area=true&area_color=312E81" alt="GitHub contribution activity graph" />
+</div>Contribution flow
+A small animated contribution snake adds movement without turning the profile into a wall of animations.
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-contribution-grid-snake.svg" />
+    <img alt="Animated snake moving through my GitHub contribution calendar" src="https://raw.githubusercontent.com/SourasishG/SourasishG/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </div>Let's connect
 I'm always happy to connect with recruiters, developers and people building interesting products.
 <p align="center">
@@ -137,5 +145,5 @@ I'm always happy to connect with recruiters, developers and people building inte
 </p><div align="center">
   <sub>Building with curiosity, learning with intention, and improving one release at a time.</sub>
   <br />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:312E81,100:0B1020&height=100&section=footer" alt="" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:312E81,100:0B1020&height=110&section=footer&animation=twinkling" alt="" />
 </div>
